@@ -1,0 +1,27 @@
+{
+    "name": "puleeno-cms/layout-uikit",
+    "description": "UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PuleenoCMS\\UIKit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "extension-class": "\\PuleenoCMS\\UIKit\\LayoutUIKitExtension",
+    "require-extensions": {
+        "puleeno-cms/layout": "*",
+        "puleeno-cms/react": "*"
+    }
+}
