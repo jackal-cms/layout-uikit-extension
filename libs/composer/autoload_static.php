@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit49e5053452b98cc987f14c500b8d8a40
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'J' => 
         array (
-            'PuleenoCMS\\UIKit\\' => 17,
+            'Jackal\\Extension\\UIKit\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'PuleenoCMS\\UIKit\\' => 
+        'Jackal\\Extension\\UIKit\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

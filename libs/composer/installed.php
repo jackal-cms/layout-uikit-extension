@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'puleeno-cms/layout-uikit',
+        'name' => 'jackal-cms/layout-uikit',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
         'reference' => '2698ce8babf732f9240e4beb4ac9fdc475855bf7',
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'puleeno-cms/layout-uikit' => array(
+        'jackal-cms/layout-uikit' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'reference' => '2698ce8babf732f9240e4beb4ac9fdc475855bf7',

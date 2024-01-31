@@ -1,11 +1,11 @@
 {
-    "name": "puleeno-cms/layout-uikit",
+    "name": "jackal-cms/layout-uikit",
     "description": "UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PuleenoCMS\\UIKit\\": "src/"
+            "Jackal\\Extension\\UIKit\\": "src/"
         }
     },
     "authors": [
@@ -19,9 +19,9 @@
     "config": {
         "vendor-dir": "libs"
     },
-    "extension-class": "\\PuleenoCMS\\UIKit\\LayoutUIKitExtension",
+    "extension-class": "\\Jackal\\Extension\\UIKit\\LayoutUIKitExtension",
     "require-extensions": {
-        "puleeno-cms/layout": "*",
-        "puleeno-cms/react": "*"
+        "jackal-cms/layout": "*",
+        "jackal-cms/react": "*"
     }
 }

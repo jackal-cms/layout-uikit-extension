@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PuleenoCMS\\UIKit\\' => array($baseDir . '/src'),
+    'Jackal\\Extension\\UIKit\\' => array($baseDir . '/src'),
 );
